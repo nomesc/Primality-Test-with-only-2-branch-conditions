@@ -12,7 +12,7 @@ main:
 #loop
 
 entry:
- bge $t2,$t1,exit1
+ bgt $t2,$t1,exit1
  div $t0,$t2  
  mfhi $t3
  mult $t4,$t3
